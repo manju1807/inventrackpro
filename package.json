@@ -1,0 +1,54 @@
+{
+	"name": "inventory-client",
+	"description": "Next.js frontend for inventory management project",
+	"author": "Manjunath R",
+	"repository": "",
+	"version": "0.4.0",
+	"scripts": {
+		"dev": "next dev --turbo",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "biome format --write",
+		"check-format": "biome format",
+		"check-lint": "biome check --fix",
+		"prepare": "husky install",
+		"postinstall": "husky install .husky",
+		"lint-and-format": "npm run check-lint && npm run format"
+	},
+	"dependencies": {
+		"@radix-ui/react-slot": "^1.1.0",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"framer-motion": "^11.11.10",
+		"lucide-react": "^0.454.0",
+		"make": "^0.0.0",
+		"mini-svg-data-uri": "^1.4.4",
+		"next": "15.0.2",
+		"next-themes": "^0.4.1",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"tailwind-merge": "^2.5.3",
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@commitlint/cli": "^19.5.0",
+		"@commitlint/config-conventional": "^19.5.0",
+		"@types/node": "^22.8.1",
+		"@types/react": "^18.3.5",
+		"@types/react-dom": "^18.3.0",
+		"autoprefixer": "^10.4.20",
+		"eslint": "^9.13.0",
+		"eslint-config-next": "15.0.2",
+		"eslint-plugin-tailwindcss": "^3.17.5",
+		"husky": "^9.1.6",
+		"postcss": "^8.4.47",
+		"tailwindcss": "^3.4.11",
+		"typescript": "^5.6.2"
+	},
+	"packageManager": "npm@10.9.0",
+	"commitlint": {
+		"extends": ["@commitlint/config-conventional"]
+	}
+}
