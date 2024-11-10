@@ -6,7 +6,7 @@ export const siteConfig = {
 	description:
 		"A comprehensive full-stack inventory management dashboard built with Next.js 14, ShadCN UI v2, Redux Toolkit, Node.js, and AWS. This application provides real-time inventory tracking, streamlined state management with Redux, and dynamic data handling with TanStack react Table. The backend is powered by Node.js and Prisma ORM, with deployment on AWS, including services like EC2, RDS, S3, and Amplify for efficient cloud-based solutions.",
 	emoji: "📊",
-	siteUrl: "https://example.com",
+	siteUrl: "https://inventrackpro.netlify.app/",
 	category: "Enterprise Software",
 	keywords: [
 		"full-stack application",
